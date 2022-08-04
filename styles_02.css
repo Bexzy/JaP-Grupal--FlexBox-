@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(darkgray, grey);
+}
+
+.cont {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: space-around;
+    margin: 3vh 5vw;
+    background: darkgray;
+    border-top: 7vh solid rgb(26, 26, 26);
+}
+
+p {
+    width: 65vw;
+    background: rgb(26, 26, 26);
+    padding: 0.1em 0.7em;
+    border-left: 0.3em solid rgb(240, 80, 22);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60pt;
+    font-weight: lighter;
+    font-stretch: expanded;
+    margin: 0.3em;
+    max-height: 80vh;
+    text-align: center;
+}
+
+.cont p:hover {
+    font-size: 72pt;
+    color: rgb(240, 80, 22);
+    box-shadow: 0.3em 0.1em 0.3em 0.1em grey;
+    font-stretch: ultra-expanded;
+    max-height: 90vh;
+    max-width: 90vw;
+    transition: ease-in-out;
+    transition-duration: 150ms;
+}
